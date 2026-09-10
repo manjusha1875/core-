@@ -9,7 +9,7 @@ package com.javafirstclass;  //--private:-accessible only within the same class.
 
 }
    class Demo{
-	public static void main(String [] args) {
+	public static void main(String[] args) {
 		Test4 t = new Test4();
 		t.display();
 	
