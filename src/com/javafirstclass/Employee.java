@@ -1,7 +1,7 @@
 package com.javafirstclass;
 
 public class Employee {
- int employeeid = 040;
+ int employeeid = 7714;
  byte age = 21;
  double salary = 20000;
  char grade = 'A';
