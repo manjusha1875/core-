@@ -9,7 +9,7 @@ public class BankAccount {
     }
     void withdraw(int amount) {
     	System.out.println("withdraw amount:"+amount);
-    	balance = balance - amount;
+    	balance = balance - amount; 
     }
     
 	public static void main(String[] args) {

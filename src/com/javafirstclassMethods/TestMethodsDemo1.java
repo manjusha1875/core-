@@ -40,6 +40,17 @@ public class TestMethodsDemo1 {
     void m9(int a, int b) {
     	System.out.println("a!=b");
     }
+    
+    void m10(int width,int length) {
+    	System.out.println("Area:"+width * length);
+    }
+    void m11(int circle) {
+    	System.out.println("circle:");
+    }
+    void age() {
+    	System.out.println("age:"+21);
+    	
+    }
 	public static void main(String[] args) {
 		 System.out.println("main method started");
 		 TestMethodsDemo1 T1 = new  TestMethodsDemo1 ();
@@ -67,7 +78,24 @@ public class TestMethodsDemo1 {
 		 T6.m3(1,20);
 		 
 		 TestMethodsDemo1 T9 = new  TestMethodsDemo1 ();
-		 T6.m3(10,20);
+		 T6.m3(100,20);
+		 
+		 TestMethodsDemo1 T10 = new  TestMethodsDemo1 ();
+		 T6.m3(1000,20);
+		 
+		 TestMethodsDemo1 T11 = new  TestMethodsDemo1 ();
+		 T6.m3(11,20);
+		 
+		 TestMethodsDemo1 T12 = new  TestMethodsDemo1 ();
+		 T6.m3(21,20);
+
+		 TestMethodsDemo1 T13 = new  TestMethodsDemo1 ();
+		 T6.m3(21,20);
+		 
+
+		 TestMethodsDemo1 T14 = new  TestMethodsDemo1 ();
+		 T7.m6(21,2);
+		 
 		 System.out.println("main method ended");
 	}
 		
