@@ -13,10 +13,9 @@ Human(){
 	model = "unknown";
 	colour = "white";
 	price = 20000.00;
-	yearofbrith = 2005;
+	yearofbrith = 2008;
 }
 	public static void main(String[] args) {
-
 	System.out.println("main method started");
 	System.out.println("welcome to human in earth ");
 	Human H = new Human();
