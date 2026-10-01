@@ -25,6 +25,7 @@ ElectricCar(String type,String brand,int price, String batteryCapacity){
 }
  
 void display() {
+	System.out.println("welcome to vehicles car");
 	System.out.println("car2 of type:" + type);
 	System.out.println("car2 of brand:" + brand);
 	System.out.println("car2 of price:" + price);
