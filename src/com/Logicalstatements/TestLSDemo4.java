@@ -15,34 +15,31 @@ public class TestLSDemo4 {
 		
 		System.out.println("Enter your assets : ");
 		double assets = sc.nextDouble();
-		
 		if(assets >=50000000.00) {
 			System.out.println("Oh nice to hear lets continue !!");
 			
 			System.out.println("Enter your salary !!");
 			double salary = sc.nextDouble();
-			
 			if(salary >=250000.00) {
 				System.out.println("Okay Good to go !! lets continue the discussion ");
 				
 				System.out.println("Enter your age :");
 				int age =sc.nextInt(); 
-				
 				if(age >=25 && age <= 29) {
 					System.out.println("Oh nice !! good to go");
 					
 					System.out.println("Enter your Height & weight !!");
 					float height =sc.nextFloat();
 					double weight =sc.nextDouble();
-					
 					if((height >=5.4 && height <=6.1) && (weight >=60 && weight<=80)){
 					System.out.println("Almost we are good to proceed !!");
 					
 						System.out.println("Do you have siblings .?");
 						boolean sibStatus =sc.nextBoolean();
-						
 						if(!sibStatus) {
 							System.out.println("Thank god !!");
+							
+							
 						}else {
 							System.out.println("Oh my god");
 						}

@@ -16,7 +16,6 @@ public class TestLSDemo7 {
 	  	    System.out.println("Sunday is a Holiday");
 
 	  	}
-	  	
 	  	case 2->System.out.println("monday");
 	  	case 3->System.out.println("Tuesday");
 	  	case 4->System.out.println("wednesday");
