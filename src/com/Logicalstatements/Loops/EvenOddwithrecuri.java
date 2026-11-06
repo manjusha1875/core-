@@ -3,6 +3,8 @@ package com.Logicalstatements.Loops;
 
 import java.util.Scanner;
 
+//WAP to print even num and odd num
+
 public class EvenOddwithrecuri {
 
 

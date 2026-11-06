@@ -22,7 +22,7 @@ static void isperfect(int n) {
     }
 
     if(sum == n) {
-        System.out.println("Perfect Number");
+        System.out.println("Enter is the Perfect Number");
     }
     else {
         System.out.println("Not a Perfect Number");
