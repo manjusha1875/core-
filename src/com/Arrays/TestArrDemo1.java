@@ -27,7 +27,7 @@ public class TestArrDemo1 {
     
   //Representation using for each loop
     System.out.println("All student ages");
-    for(int age:ages) {
+    for(int age :ages) {
   	  System.out.println(ages);
     }
 	}
