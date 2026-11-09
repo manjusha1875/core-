@@ -1,13 +1,12 @@
+
 package com.Logicalstatements.Loops;
 
 import java.util.Scanner;
-//WAP to print reverse order
-//Input: 1234
-//Output: 4321
 
-//Remember:
-//Perfect Number uses a for loop.
-//Reverse Number uses a while loop.
+// WAP to print reverse order
+// Input: 1234
+// Output: 4321
+
 public class WhileLoop1 {
 
     public static void main(String[] args) {
@@ -15,12 +14,11 @@ public class WhileLoop1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a number");
-
         int n = sc.nextInt();
 
         int rev = 0;
 
-        while(n > 0) {
+        while (n > 0) {
 
             int b = n % 10;
 
@@ -30,5 +28,7 @@ public class WhileLoop1 {
         }
 
         System.out.println("Reverse number is: " + rev);
+
+        sc.close();
     }
 }
