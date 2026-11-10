@@ -9,7 +9,7 @@ public class TestArrDemo1 {
     int [] ages;
     
     //creation
-    ages= new int[10];
+    ages= new int[10];//0 1 2 3 4 5 6 7 8 9 10-->10 Zero's
     
     //Initialize
     ages[0]=22;
@@ -21,14 +21,14 @@ public class TestArrDemo1 {
     
     //Representation using for loop
     
-    for(int i=0;i<ages.length;i++) {
-  	  System.out.println(ages[i]);
-    }
+  //  for(int i=0;i<ages.length;i++) {
+  	//  System.out.println(ages[i]);
+  //  }
     
   //Representation using for each loop
-    System.out.println("All student ages");
+    System.out.println("All student ages:");
     for(int age :ages) {
-  	  System.out.println(ages);
+  	  System.out.println(age);
     }
 	}
 
